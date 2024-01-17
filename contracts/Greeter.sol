@@ -1,12 +1,13 @@
 // SPDX-License-Identifier: MIT 
 pragma solidity >= 0.4.0;
 contract Greeter {
-    
-    function greet() external pure returns(string memory) {
-        return "Hello, World!";
+    string private _greeting = "Hello, World!";
+
+    function greet() external view returns(string memory) {
+        return _greeting;
     }
 
-    function setGreeting(string calldata greting) external {
-
+    function setGreeting(string calldata greeting) external {
+        _greeting = greeting;
     }
 }

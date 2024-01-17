@@ -1,3 +1,10 @@
 {
-    "solidity.compileUsingRemoteVersion": "v0.8.23+commit.f704f362"
+    "solidity.compileUsingRemoteVersion": "v0.8.23+commit.f704f362",
+    "fileheader.customMade": {
+        "Date": "Do not edit", // 文件创建时间(不变)
+        // 文件最后编辑者
+        "LastEditors": "git config user.name && git config user.email", 
+        "LastEditTime": "Do not edit", // 文件最后编辑时间
+        "FilePath": "Do not edit" // 文件在项目中的相对路径 自动更新
+      }
 }
